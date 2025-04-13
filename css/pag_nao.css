@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  /* tag css que seleciona o css inteiro */
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-size: medium;
+  text-decoration: none;
+  outline: none;
+
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-shadow: 1px 7px 5px rgba(0, 0, 0, 0.356);
+}
+.logo_nome {
+  display: inline;
+  vertical-align: 31px;
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 24px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.295);
+}
+.logo_sv {
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 56px;
+  width: 62px;
+}
+
+header {
+  max-width: 100%;
+  text-align: center;
+  background-color: #512c12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.homelink {
+  text-shadow: 1px 7px 5px rgba(0, 0, 0, 0.356);
+  color: #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 21px;
+  position: absolute;
+  right: 66px;
+  margin-top: -16px;
+}
+.homelink:hover {
+  background: fixed #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  color: #65522e;
+  font-weight: 400;
+  text-decoration: none;
+  position: absolute;
+  right: 66px;
+  margin-top: -16px;
+  font-size: 21px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.527);
+  transition: 0.8s;
+}
+.menu_img {
+  margin-left: 20px;
+  margin-right: 65px;
+  margin-bottom: -8px;
+  width: 25px;
+}
+.n_disponivel {
+  color: #4a402e;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.google-btn {
+  width: 20%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: larger;
+}
+.google-btn {
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  background-color: #4a402e;
+  display: flex;
+  font-size: 20px;
+}
+.google-btn a {
+  color: #fff;
+  font-size: 15px;
+}
+.google-btn:hover {
+  background-color: #2e291f;
+}

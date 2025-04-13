@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  /* tag css que seleciona o css inteiro */
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-size: medium;
+  text-decoration: none;
+  outline: none;
+
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-shadow: 1px 7px 5px rgba(0, 0, 0, 0.356);
+}
+.logo_nome {
+  display: inline;
+  vertical-align: 31px;
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 24px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.295);
+}
+.logo_img {
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 56px;
+  width: 62px;
+}
+nav {
+  margin-bottom: 28px;
+}
+header {
+  max-width: 100%;
+  text-align: center;
+  background-color: #512c12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.homelink {
+
+  text-shadow: 1px 7px 5px rgba(0, 0, 0, 0.356);
+  color: #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 616px;
+  font-size: 21px;
+}
+
+.sobrelink {
+  background: fixed #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  color: #65522e;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+
+  right: 486px;
+  font-size: 21px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.527);
+
+}
+.lojalink {
+  text-shadow: 1px 7px 5px rgba(0, 0, 0, 0.356);
+  color: #ffffff;
+  font-weight: 300;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  text-decoration: none;
+  position: absolute;
+  right: 356px;
+  font-size: 21px;
+}
+.suportelink {
+  text-shadow: 1px 7px 5px rgba(0, 0, 0, 0.356);
+  color: #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 195px;
+  font-size: 21px;
+}
+.sobrelink:hover {
+  background: fixed #d3d3d3;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  color: #8b6826;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 486px;
+  font-size: 21px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.527);
+  transition: 0.6s;
+}
+.lojalink:hover {
+  background: fixed #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  color: #65522e;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 356px;
+  font-size: 21px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.527);
+  transition: 0.6s;
+}
+.suportelink:hover {
+  background: fixed #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  color: #65522e;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 195px;
+  font-size: 21px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.527);
+  transition: 0.6s;
+}
+.homelink:hover {
+  background: fixed #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  color: #65522e;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 616px;
+  font-size: 21px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.527);
+  transition: 0.6s;
+}
+.loginlink {
+  text-shadow: 1px 7px 5px rgba(0, 0, 0, 0.356);
+  color: #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 74px;
+  font-size: 21px;
+}
+.loginlink:hover {
+  background: fixed #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  color: #65522e;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 74px;
+  font-size: 21px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.527);
+  transition: 0.6s;
+}
+.homelink:active {
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+.lojalink:active {
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+.suportelink:active {
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+.sobrelink:active {
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+.loginlink:active {
+    transition: 0.1s;
+    transform: scale(0.9);
+  }
+/* .menu_img{
+    margin-left: 20px;
+    margin-right: 65px;
+    margin-bottom: -8px;
+    width: 25px;
+} */
+/* provavelmente eu comecei de bem aqui */
+h2{
+  position:relative;
+  left: 100px;
+  bottom: 20px;
+  padding: 10px;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: left;
+  margin: 8px;
+  width: 500px;
+  /* aqui eu mudei a posição da palavra " precisa de ajuda?" para ficar de baixo da "logo",aumentei o tamanho dele também
+  */
+}
+input{
+  position: relative;
+  bottom: 30px;
+  left:-280px;
+  margin: 8px;
+  width: 500px;
+  /* aqui eu mudei a posição da barra de pesquisa para ficar em baixo do  "precisa de ajuda?" */
+}
+
+
+
+ 
+  .topodapagina {
+    background-color:#CFA66E;
+    color: white;
+    padding: 20px;
+    height: 700px;
+  /* aqui eu devini a cor da div,a largura e outras coisas */
+   
+  }
+  .imagen{
+   background-image: url(https://i.ibb.co/DDgv45fW/Design-sem-nome-1-1-1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+   height: 90%;
+   width: 90%;
+   margin-left:100px;
+  }
+  .topicos1 {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 110px;
+
+  }
+  .topicos1 div {
+    background-color: #F4F4F4;
+    padding: 20px;
+    text-align: center;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    height: 300px;
+    width: 300px;
+    /* mexi na borda,espaçamento,margir,largura etc... */
+  }
+   
+  
+  .partedebaixo {
+    margin-top: 0px;
+    background-color:#865439;
+    color: white;
+    padding: 20px;
+    height: 500px;
+   
+  }

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <!-- link para o style -->
+    <link rel="stylesheet" href="../css/login(sv).css" />
+    
+  <div vw class="enabled">
+    <div vw-access-button class="active">
+    </div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper">
+            </div>
+        </div>
+    </div> 
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <header>
+      <!-- logo -->
+      <a class="logo_link" href="../index.html">
+        <img
+          class="logo_sv"
+          src="https://i.ibb.co/gJDjKd7/Screenshot-2023-09-29-16-45-48-587-com-android-chrome-edit-removebg-preview-1.png"
+        />
+        <h1 class="logo_nome">Sentimentos em Versos</h1>
+      </a>
+      <nav>
+        <!-- links pras outras abas -->
+        <a class="cadastrolink" href="cadastro.html">CADASTRO</a>
+        <button class="nao_login" onclick="confirmar()">CONTINUAR SEM LOGIN</button>
+        <!-- <img class="menu_img" src="https://i.ibb.co/KrrRNzZ/Group-1.png" /> -->
+      </nav>
+    </header>
+    <img class="img_fundo" src="https://i.ibb.co/qNY7C4B/oeioeoe.png" />
+    <main>
+      <section class="organizar">
+        <div class="container">
+          <h1 class="facalogin">Login</h1>
+          <form class="form" id="loginForm" onsubmit="return validarLogin()">
+            <input type="email" id="email" placeholder="Email" required />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Senha"
+              required
+            />
+            <input
+              type="checkbox"
+              id="show-password"
+              onclick="togglePassword()"
+            /><span class="mostrar"> Mostrar Senha</span>
+            <br />
+            <button class="botoes" type="submit">login</button>
+            <a class="Esqueceu" href="Pag_nao.html"
+              ><h1 class="Esqueceu">Esqueceu a senha?</h1></a
+            >
+            <button class="botoes_outros" type="submit">
+              <img
+                class="google_ft"
+                src="https://img.icons8.com/?size=512&id=17949&format=png"
+                width="20px"
+              />
+              Google
+            </button>
+            <button class="botoes_outros" type="submit">
+              <img
+                class="apple_ft"
+                src="https://cdn-icons-png.flaticon.com/512/0/747.png"
+                width="20px"
+              />
+              Apple ID
+            </button>
+            <button class="botoes_outros" type="submit">
+              <img
+                class="facebook_ft"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png"
+                width="20px"
+              />
+              Facebook
+            </button>
+            <h1 class="Esqueceu">
+              Não tem uma conta?
+              <span class="Cadastre-se"
+                ><a class="Cadastre-se" href="cadastro.html"
+                  >Cadastre-se</a
+                ></span
+              >
+            </h1>
+          </form>
+        </div>
+
+        <script>
+          function togglePassword() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+              x.type = "text";
+            } else {
+              x.type = "password";
+            }
+          }
+
+          document
+            .getElementById("loginForm")
+            .addEventListener("submit", function (event) {
+              event.preventDefault(); // Evita o envio do formulário
+              var email = document.getElementById("email").value;
+              var password = document.getElementById("password").value;
+
+              // Verifica se os campos de e-mail e senha estão preenchidos
+              if (email.trim() !== "" && password.trim() !== "") {
+                // Redireciona para a página desejada
+                window.location.href = "homepage_com_login.html";
+              }
+            });
+
+          function redirecionar() {
+            location.href =
+              "file:///C:/Users/Anthony/Documents/DeafEd/casdastro.html";
+          }
+        </script>
+        <script>
+          function confirmar() {
+            Swal.fire({
+              title: "Atenção!",
+              text: "Ao contiunar sem login, vários recursos estarão desabilitados. Você deseja continuar?",
+              icon: "warning",
+              showCancelButton: true,
+              confirmButtonText: "Sim, continuar",
+              cancelButtonText: "Cancelar",
+              confirmButtonColor: "#3085d6",
+              cancelButtonColor: "#d33"
+ }).then((result) =>  {
+  if (result.isConfirmed) {
+    window.location.href= "../index.html"; 
+  }
+ });
+
+
+              // const confirmar = confirm("Ao contiunar sem login, vários recursos estarão desabilitados. Você deseja continuar?");
+  
+              // if (confirmar) {
+              //     // Redireciona para outra página
+              //     window.location.href = "/index.html"; // Substitua pela URL da página de destino
+              // } else {
+              //     // Não faz nada, permanece na mesma página
+              //     return;
+              // }
+          }
+      </script>
+      </section>
+    </main>
+  </body>
+</html>

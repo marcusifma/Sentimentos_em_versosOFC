@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  /* tag css que seleciona o css inteiro */
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-size: medium;
+  text-decoration: none;
+  outline: none;
+
+  font-family: "Poppins", sans-serif;
+}
+.logo_nome {
+  display: inline;
+  vertical-align: 31px;
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 24px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.295);
+}
+.logo_sv {
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 56px;
+  width: 62px;
+}
+nav{
+    margin-bottom: 28px;
+}
+header {
+  max-width: 100%;
+  text-align: center;
+  background-color: #512c12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.loginlink {
+  text-shadow: 1px 7px 5px rgba(0, 0, 0, 0.356);
+  color: #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 355px;
+  font-size: 21px;
+}
+.loginlink:hover {
+  background: fixed #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  color: #65522e;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 355px;
+  font-size: 21px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.527);
+  transition: 0.6s;
+}
+.loginlink:active {
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+.nao_login {
+    background: none;
+  text-shadow: 1px 7px 5px rgba(0, 0, 0, 0.356);
+  color: #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 60px;
+  font-size: 21px;
+}
+.nao_login:hover {
+  background: fixed #ffffff;
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+  color: #65522e;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  right: 60px;
+  font-size: 21px;
+  text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.527);
+  transition: 0.6s;
+}
+.nao_login:active {
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+/* .menu_img {
+  margin-left: 20px;
+  margin-right: 65px;
+  margin-bottom: -8px;
+  width: 25px;
+} */
+main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+body {
+  background: #c2c02d59;
+  font-family: "Montserrat", sans-serif;
+}
+.img_fundo {
+  width: 100%;
+  height: 100%;
+}
+.images {
+  margin-left: 110px;
+  margin-top: 100px;
+  float: right;
+  max-width: 500px;
+  border-radius: 5px;
+}
+section {
+  position: absolute;
+  top: 25%;
+  margin-left: 20px;
+  max-width: 500px; /* Define a largura máxima da section */
+  max-height: 730px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.container {
+  max-width: 320px;
+  margin: 30px;
+  margin-top: -0px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+.facacadastro {
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+}
+input[type="password"],
+input[type="text"],
+input[type="email"] {
+  color: #000000;
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0;
+  border-bottom: 1px solid #242424;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+input[type="password"]::placeholder,
+input[type="email"]::placeholder,
+input[type="text"]::placeholder {
+  text-align: left;
+  position: absolute;
+  left: 3px;
+  color: #535353;
+}
+textarea:focus,
+input:focus,
+select:focus {
+  outline: 0;
+}
+.mostrar {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 300;
+}
+.Esqueceu {
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 13px;
+  font-weight: 300;
+}
+.signup-link {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #e0e0e0;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b4b4b4;
+}
+
+.erro {
+  display: none;
+  color: red;
+}
+
+.botoes_outros {
+  color: #000000;
+  text-align: center;
+  width: 32%;
+  font-size: 13px;
+  padding: 6px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+.botoes {
+  color: #000000;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #4899e4;
+}
+.botoes_outros:hover {
+  transition: 450ms;
+  background-color: #dddddd;
+}
+.botoes:hover {
+  transition: 450ms;
+  background-color: #2979c4;
+}
+
+.botoes button {
+  margin-left: 10px;
+}
+.google_ft {
+  position: relative;
+  bottom: -5px;
+}
+.apple_ft {
+  position: relative;
+  bottom: -4px;
+}
+.facebook_ft {
+  position: relative;
+  bottom: -4.2px;
+}
+.paralogin {
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+}
